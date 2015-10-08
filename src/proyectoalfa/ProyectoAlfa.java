@@ -9,13 +9,13 @@ public class ProyectoAlfa {
     
     public static void main(String[] args) {
         //entrada por teclado
-        float base,altura;
+        float lado,area;
         Scanner obx = new Scanner (System.in);
-        System.out.println("teclea base:");
-        base =obx.nextFloat();
-        System.out.println("teclea altura:");
-        altura=obx.nextFloat();
-        System.out.println("area="+base*altura/2);
+        System.out.println("teclea lado:");
+        lado =obx.nextFloat();
+        System.out.println("teclea lado:");
+        lado=obx.nextFloat();
+        System.out.println("area="+lado*lado);
         
     }
         
